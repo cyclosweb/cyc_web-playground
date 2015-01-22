@@ -1,0 +1,63 @@
+body {
+    font-family:anton, arial, sans-serif;
+    background:#fff;
+    padding:0;
+    margin:0;
+}
+
+#container {
+    height:100%;
+    text-align:center;
+}
+
+.preisScreen {
+    display:none;
+    height:100%;
+    font-family:anton;
+    font-size:200px;
+    text-transform:uppercase;
+}  
+
+.preisScreen div {
+     padding-top:50px; 
+}
+
+
+#preis1 {
+    color:#fff;
+    background:#B9E347;
+}
+
+#preis2 {
+    color:#fff;
+    background:#EFB22D;
+}
+
+#preis3 {
+    color:#fff;
+    background:#EF2CC2;
+}
+
+#emptyScreen {
+    height:100%;
+    background:#fff;
+    color:#000;
+    font-size:50px;
+}
+
+#sorryScreen {
+    display:none;
+    height:100%;
+    background:#000;
+    color:#fff;
+    font-size:50px;
+}
+
+
+#emptyScreen div {
+     padding-top:100px;
+}
+
+#sorryScreen div {
+     padding-top:100px;
+}
